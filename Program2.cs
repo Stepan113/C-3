@@ -1,0 +1,14 @@
+Console.WriteLine("Введите первую точку A: ");
+int num1=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите вторую точку A: ");
+int num2=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третью точку A: ");
+int num3=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите первую точку B: ");
+int num4=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите вторую точку B: ");
+int num5=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третью точку B: ");
+int num6=Convert.ToInt32(Console.ReadLine());
+double distance=Math.Sqrt(Math.Pow(num1-num4,2) + Math.Pow(num2-num5,2) + Math.Pow(num3-num6,2));
+Console.WriteLine($"{distance:f2}");
